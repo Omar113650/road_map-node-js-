@@ -21,13 +21,14 @@ Becoming a proficient backend developer with Node.js requires a solid understand
 > **How to use this roadmap:** go in order, and understand the foundation before the tool. Where a section says "choose only one" (a SQL database, an ORM), pick one and master it instead of learning them all. The numbers next to some courses (for example `videos 1-3`) mean which videos of that playlist to watch.
 
 ## Levels
-  <img src="https://miro.medium.com/v2/resize:fit:1400/1*rc-6WRXseH1q1tqXJPP5jw.png" alt="Node.js" align="right" width="600" />
 
 - [Beginner Level](#beginner-level)
 - [Intermediate Level](#intermediate-level)
 - [Advanced Level](#advanced-level)
 
 ## Preparation:
+
+> Before starting Node.js, the fundamentals need to be solid first.
 
 <details>
  <summary>CS Introduction </summary>
@@ -54,7 +55,10 @@ ________________________________________________________
 
 
 ## Entry & Basics:
-<img src="https://raw.githubusercontent.com/gist/vininjr/d29bb07bdadb41e4b0923bc8fa748b1a/raw/88f20c9d749d756be63f22b09f3c4ac570bc5101/programming.gif" alt="entry" width="400" align="right" />
+
+> A strong backend roadmap starts with understanding the Internet, Git, Databases, and Data Structures, not by jumping straight into Node.js.
+
+**Web fundamentals to cover:** Internet, Client / Server, HTTP, DNS, API, JSON
 
 <details>
  <summary>How the Internet Works</summary>
@@ -132,9 +136,6 @@ ________________________________________________________
 ## Beginner Level
 
 ### Frontend Basics
-<div>
-<img src="https://preview.redd.it/backendsfears-v0-bono8r1iq3bd1.jpeg?width=1080&crop=smart&auto=webp&s=0826d0b51b9dd89c4e78d3cc9b5b8f4f4b755486" alt="css" align="right" width="300" />
-  <div>
 
 #### HTML & CSS
 > Optional. You don't need to be a frontend developer, but you should be able to read HTML/CSS and understand what the browser receives from your server.
@@ -150,12 +151,9 @@ ________________________________________________________
   - [CSS In One Video - Elzero](https://youtu.be/qyVkLebgfzY?si=yRWGDMZh3xaWxsR2)
   - [HTML CSS Design 1 - Elzero](https://youtu.be/_-eh8cwGGwg?si=kbi6hqePJ2OmQMA6)
   - [HTML CSS Design 2 - Elzero](https://youtu.be/heuDmrEAgUA?si=ILHCoishYlqtZSjl)
-  </div>
-</div>
 
 ### JavaScript Fundamentals
 
-<img src="https://media.giphy.com/media/ln7z2eWriiQAllfVcn/giphy.gif" alt="js" align="right" width="200" />
 
 <details>
   <summary>Essential concepts to master:</summary>
@@ -166,7 +164,7 @@ ________________________________________________________
   - Variables
   - Operators
   - Control flow
-- Arrays & Array Methods
+- Arrays, Objects & Array Methods
 - Loops
 - Functions
 - Higher Order Functions
@@ -212,6 +210,8 @@ ________________________________________________________
 
 ### Database Fundamentals
 
+> Before any ORM, the database itself needs to be understood first.
+
 <details>
 <summary>Database Concepts</summary>
 
@@ -221,6 +221,14 @@ ________________________________________________________
 - Primary / Foreign Keys
 - Normalization
 - ERD
+</details>
+
+<details>
+<summary>Database Types</summary>
+<br>
+
+- **Relational (SQL):** PostgreSQL / MySQL / SQL Server / SQLite. Pick one as your primary choice, usually PostgreSQL.
+- **Non-Relational (NoSQL):** MongoDB, for document-based and unstructured data.
 </details>
 
 - [Database Design Course - freeCodeCamp.org](https://www.youtube.com/watch?v=ztHopE5Wnpc)
@@ -238,7 +246,8 @@ ________________________________________________________
 
 ### Node.js Basics
 
-<img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" alt="nodejs" align="right" width="200" />
+> Once JavaScript is solid, understand Node.js itself before working with any framework.
+
 
 - Node.js Runtime & V8 Engine
 - Event Loop
@@ -260,9 +269,9 @@ ________________________________________________________
 
 
 ### Express.js Framework
-<div >
-    <img src="https://media.tenor.com/FVbQ-0-0uI4AAAAM/cat.gif" alt="cat" align="right" width="200" />
-  <div>
+
+> This is where real backend building begins.
+
 <details>
   <summary>Core Concepts</summary>
   <br>
@@ -274,6 +283,7 @@ ________________________________________________________
    - Request/Response Handling
    - Static Files
    - Template Engines
+   - Configuration & Environment Management
    - Cookies
    - API Versioning
     </details>
@@ -399,16 +409,31 @@ ________________________________________________________
 - [Almdrasa - OAuth](https://www.youtube.com/watch?v=86qNjL7I00w)
 - [Youssef Abbas - Blog App](https://youtube.com/playlist?list=PL5gCk5NdNx58jcohY_gnMR2WI1Lhl2uNK&si=NcfucyoDpIoD9vO3)
 - [Algorithm Academy - passport.js](https://www.youtube.com/playlist?list=PLfDx4cQoUNOZ6BVx8IuvTdrxiRQhDHmPK)
-  </div>
-
-</div>
 
 
 ### MongoDB Courses
+
+<details>
+<summary>NoSQL (MongoDB) topics</summary>
+<br>
+
+- Collections & Documents
+- Schema Design
+- CRUD Operations
+- Aggregation Pipeline
+- Indexing
+- When to choose NoSQL over SQL
+</details>
+
 - [Mohamed Ramdan - MongoDB Course](https://youtube.com/playlist?list=PLd6o9p13Lc5387FWk_GXU0Rh5AhrBGod5&si=iMA4rPjm8tMNl3zH)
 - [Academind - MongoDB](https://www.youtube.com/watch?v=VELru-FCWDM)
 
 ### API Documentation: Rules, using Swagger & Postman
+- API Tools: Postman, Swagger / OpenAPI
+- API Contracts
+
+<br>
+
 - [QAcart - Postman Course](https://youtube.com/playlist?list=PLJ2FoWouEU2yPMIBTGsMRvxjEevIlMi3F&si=lLDRz8DsraSzZXMJ)
 - [Automation - Postman](https://youtu.be/wEOLZq-7DYs?si=5oyiIANh75HKCziQ)
 - [Muhammed Essa - Swagger Api design and documentation](https://youtube.com/playlist?list=PLMYF6NkLrdN_CelwcY-B9PPi4UsXmU8Ka&si=ENybozmt2WnbTwOT)
@@ -417,11 +442,10 @@ ________________________________________________________
 ### Server-Side Rendering VS. Client-Side Rendering
 - [Amr Mohamed - Server-Side vs Client-Side Rendering Explained](https://www.youtube.com/watch?v=zAJs2T1xAFE)
 
-<div>
-  <img src="https://cdn3d.iconscout.com/3d/free/thumb/free-typescript-3d-icon-download-in-png-blend-fbx-gltf-file-formats--microsoft-logo-angular-language-javascript-static-type-coding-lang-pack-logos-icons-7577992.png" alt="ts" align="right" width="200"/>
-  <div>
-
 ### TypeScript: Syntax, Features, Usage
+
+> Additional tool: useful depending on your path. Recommended after you are comfortable with Express.
+
 - Syntax & Types, Interfaces, Generics, using TypeScript with Express
 
 - [TS - Elzero](https://youtube.com/playlist?list=PLDoPjvoNmBAy532K9M_fjiAmrJ0gkCyLJ&si=iWwrKEkOryhbHciU)
@@ -431,9 +455,6 @@ ________________________________________________________
 - [TS - Scripter Efendi](https://youtube.com/playlist?list=PLAhPJ5tzB6ALRWCae49De5C6aEs04PcCk&si=66Ed9n4YccFTZPnw)
 - [Express with TypeScript - Anson the Developer](https://youtu.be/Be7X6QJusJA?si=KI2bUSw-zc4shX4a)
 
-  </div>
-</div>
-
 
 ### Architecture: MVC and Other Design Patterns
 - MVC
@@ -441,6 +462,7 @@ ________________________________________________________
 - Separation of Concerns
 - Dependency Injection (concept)
 - Design Patterns Basics
+- SOLID (see the resources under Beginner Level)
 - Clean Code
 
 <br>
@@ -454,6 +476,7 @@ ________________________________________________________
 - Jest / Supertest
 - Mocking
 - Test Database
+- Documentation: Swagger / OpenAPI, API Contracts
 - Linting & Formatting, Git Branching, Pull Requests, Code Review
 
 <br>
@@ -465,7 +488,6 @@ ________________________________________________________
 
 ### Deployment
 
-<img src="https://media.tenor.com/QpPN5fwofYcAAAAM/deployment-i-deployed.gif" alt="deploy" align="right" width="170" />
 
 - [Deployment to Vercel](https://www.youtube.com/watch?v=vCuf62T2snY)
 - [Deployment to Azure App Service](https://youtube.com/playlist?list=PLLasX02E8BPADO_R-D6ctSoV4EeE8ow9B&si=21Oh06vU9UN5NS8V)
@@ -477,9 +499,8 @@ ________________________________________________________
 
 ### Database: SQL Syntax, DB-APIs, ORMs, Migrations
 
-<img src="https://i.chzbgr.com/full/6562271744/hD7682E43/catch-chases-computer-mouse" alt="database" align="right" width="200" />
 
-#### SQL Syntax: Choose only one DBMS
+#### SQL Syntax: Choose only one DBMS (usually PostgreSQL)
 
 **SQL topics:** CRUD, SELECT / WHERE, JOIN, GROUP BY & Aggregation, Subqueries, Views, Constraints, Indexes
 
@@ -521,6 +542,19 @@ ________________________________________________________
 
 
 ### Relational Database Design
+
+<details>
+<summary>Database Internals</summary>
+<br>
+
+- Transactions
+- ACID
+- Isolation Levels
+- Locks
+- Concurrency
+- Deadlocks
+</details>
+
 - [Database Design - bedoo Bader](https://youtube.com/playlist?list=PLC7aGATfqnIj6p1GIzk4X13Xdv3T8rBzJ&si=b9UrtCpDgHd0SmKA)
 - [Database Design - SAF1](https://www.youtube.com/watch?v=CQlfm_zNIgo)
 - [Database Design - Very Academy](https://youtube.com/playlist?list=PLOLrQ9Pn6caxigVJw2jHwIpH7gdb1zrmu&si=2X6yAqrItPvdcTtn)
@@ -576,10 +610,18 @@ ________________________________________________________
 - [Database Migrations Tutorial](https://youtu.be/TmVRKDoMulE?si=qn9sHCOBrkXbelbG)
 
 ### Browser Automation & Web Scraping using `puppeteer`
+- Puppeteer Basics
+- Practical use cases
+
+<br>
+
 - [Puppeteer Automation Playlist 1](https://youtube.com/playlist?list=PLRmEk9smitaXljDN2CjwZ96o4Aj87iuC5&si=hrGsjUs99r3gCcIl)
 - [Puppeteer Scraping Playlist 2](https://youtube.com/playlist?list=PLuJJZ-W1NwdqgvE0D-1SMS7EpWIC5cKqu&si=yhMjk1QKfTOBp-mA)
 
 ### Payment Gateways Integration
+
+> Additional tool: useful depending on your path.
+
 - Payment Integration Concepts, Stripe / Paymob and others
 
 <br>
@@ -606,6 +648,13 @@ ________________________________________________________
 - Connection Pool
 - Pagination Optimization
 - Response Time & Load Testing
+</details>
+<details>
+<summary>API Protection</summary>
+<br>
+
+- Rate Limiting
+- Throttling
 </details>
 
 <br>
@@ -634,7 +683,7 @@ ________________________________________________________
 
 ### Production Backend: Beyond the Basics
 
-> The shift from "I know backend" to "I can run backend in production." Study these after you understand all the building blocks above.
+> The shift from junior CRUD developer to backend engineer, and from "I know backend" to "I know how to run backend in production." Study these after you understand all the building blocks above.
 
 <details>
 <summary>Event-Driven Basics</summary>
@@ -650,9 +699,20 @@ ________________________________________________________
 <summary>Production-Grade APIs</summary>
 <br>
 
-- Response Standardization & Validation
+**API Engineering**
+
+- Advanced Pagination, Filtering, Sorting, Search
+- API Versioning
+- Response Standardization
+- Validation
 - Error Handling & Logging
-- Third-party APIs, Email / SMS
+- Configuration Management
+
+**File & External Services**
+
+- File Upload & Cloud Storage
+- Email / SMS
+- Third-party APIs
 - Webhooks
 </details>
 
@@ -681,11 +741,14 @@ This is where real system design questions start to show up:
 <summary>Software Architecture & Distributed Systems</summary>
 <br>
 
+> This comes after understanding all the backend components, not at the start.
+
 - Modular Monolith
 - Layered Architecture
 - Clean Architecture
 - Repository Pattern
 - Dependency Injection
+- SOLID & Design Patterns
 - Load Balancing & Horizontal Scaling
 - Stateless Services
 - Service Discovery (concept)
@@ -727,6 +790,8 @@ Resources: see **Containers** and **Hosting** under [More and More](#more-and-mo
 <summary>System Design</summary>
 <br>
 
+> The final level, once all the backend building blocks are understood.
+
 - Requirements & Constraints
 - Trade-offs
 - Scalability, Availability, Consistency
@@ -736,12 +801,10 @@ Resources: see **Containers** and **Hosting** under [More and More](#more-and-mo
 
 
 ## NestJS
-<div>
-<img src="https://miro.medium.com/v2/resize:fit:1024/0*NYxYQfSoVsW5lyu0.png" alt="cat-nest" width="400" align="right" />
 
-  <div>
+> Optional alternative framework to Express.
 
-  <details>
+<details>
     <summary>Getting Started</summary>
   <br>
 
@@ -751,8 +814,6 @@ Resources: see **Containers** and **Hosting** under [More and More](#more-and-mo
 - [ ] Project structure and architecture
 - [ ] Understanding modules, controllers, and providers
 </details>
-</div>
-</div>
 
 <details>
   <summary>1. Core Concepts</summary>
@@ -892,12 +953,16 @@ Resources: see **Containers** and **Hosting** under [More and More](#more-and-mo
   <summary>Software Engineering : SDLC, Agile Workflow, DevOps Workflow</summary>
   <br>
 
+**Topics:** SDLC, Agile Workflow, DevOps Workflow
+
 - [Software Development Lifecycle (SDLC)](https://youtu.be/pES-vyion48?si=gvrv7Orwg4QtlZQa)
 - [Agile Workflow](https://youtu.be/i-QyW8D3ei0?si=eT-KAuKxFtExf2PC)
 </details>
 <details>
   <summary>Operating Systems</summary>
   <br>
+
+**Topics:** Operating Systems Basics
 
   - [Operating Systems - Berkeley](https://youtube.com/playlist?list=PLGLfVvz_LVvSuz6NuHAzpM52qKM6bPlCV&si=sjA2ZNRSyqkSJZ-1)
 </details>
